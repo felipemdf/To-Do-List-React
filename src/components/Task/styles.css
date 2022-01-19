@@ -1,0 +1,26 @@
+.Task-container{
+    width: 85%;
+    padding: 0% 5%;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(48, 43, 68);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Task-container:last-child{
+    border-bottom-width: 0px;
+}
+
+.Task-text{
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+.Task-Delete{
+    cursor: pointer;
+}

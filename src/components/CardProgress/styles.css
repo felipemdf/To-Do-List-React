@@ -1,0 +1,37 @@
+.CardProgress-container{
+    display: flex;
+    flex-direction: column;
+
+    border: solid;
+    border-color: rgb(48, 43, 68);
+    border-width: 1px;
+    border-radius: 10px;
+    min-height: 100px;
+    height: auto;
+}
+
+.CardProgress-header{
+    height: 50px;
+    width: 95%;
+    
+
+    border: solid;
+    border-color: rgb(48, 43, 68);
+    border-width: 1px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+    color: white;
+    align-items: center;
+    padding-left: 5%;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(48, 43, 68);
+}
+
+.CardProgress-body{
+    display: flex;
+    flex-direction: column;
+}

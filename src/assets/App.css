@@ -1,0 +1,66 @@
+nav {
+    background-color:rgb(48, 43, 68);;
+    padding: 1% 5% 1% 5%;
+    margin-bottom: 4%;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: white;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: 0% 10%;
+}
+
+.inputTask {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.inputTask > input, input:focus{
+    width: inherit;
+    height: 36px;
+    margin-right: 5px;
+    border: solid;
+    border-width: 1px;
+    text-indent: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.inputTask > button{
+    width: 50px;
+    height: 40px;
+
+    border: solid;
+    border-width: 1px;
+
+    background-color: rgb(48, 43, 68);
+    color: white;
+    font-weight: bolder;
+}
+
+.inputTask > button:focus, button:hover{
+    background-color:rgb(27, 24, 39);
+    color:rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 23%));
+    grid-column-gap: 15px;
+    row-gap: 10px;
+
+    justify-content: center;
+}
